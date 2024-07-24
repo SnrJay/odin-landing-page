@@ -169,3 +169,40 @@ body {
     text-align: end;
     color: #1f2937;
 }
+
+/* CTA Section */
+.cta {
+    margin: 100px auto;
+}
+
+.cta .modal {
+    width: 1000px;
+    background-color: #3882f6;
+    padding: 50px 100px;
+    display: flex;
+    border-radius: 12px;
+    justify-content: space-between;
+}
+
+.cta .modal .text h3 {
+    color: #f9faf8;
+    font-size: 20px;
+}
+
+.cta .modal .text p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.cta .modal .button button {
+    background-color: #3882f6;
+    width: 150px;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: 2px solid #f9faf8;
+    outline: none;
+    box-shadow: none;
+}
